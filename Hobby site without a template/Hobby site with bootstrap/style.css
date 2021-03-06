@@ -1,0 +1,113 @@
+.float-start {
+  border: solid 2px;
+  margin-bottom: 40px;
+}
+.pics {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.foodpara {
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 14pt;
+  margin-left: 120px;
+}
+.numbers {
+  font-size: 26pt;
+  color: red;
+  font-family: "Hammersmith One", sans-serif;
+  font-family: "Libre Baskerville", serif;
+}
+#menu-top {
+  margin-top: 50px;
+}
+.h2 {
+  margin-bottom: 50px;
+  font-size: 40pt;
+  font-family: monospace, fantasy;
+}
+.card {
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+#buttonSub {
+  margin-top: 10px;
+}
+.map-container-3 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-3 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.textarea {
+  margin-top: 20px;
+}
+.checked {
+  color: orange;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #0d6efd;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn-dark:hover {
+  background-color: #0d6efd;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#about {
+  margin-top: 50px;
+}
+summary {
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 14pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+details {
+  overflow: hidden;
+  background-color: lightblue;
+  border-radius: 3%;
+  border: 1px solid;
+}
+details[open] summary ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: 50px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
+}
+#us {
+  margin-right: 20px;
+}
+#gordon {
+  margin-left: 20px;
+}
